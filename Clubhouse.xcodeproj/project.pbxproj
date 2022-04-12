@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008CC5802805884300B34DCC /* ClubhouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC57F2805884300B34DCC /* ClubhouseApp.swift */; };
+		008CC5822805884300B34DCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5812805884300B34DCC /* ContentView.swift */; };
+		008CC5842805884500B34DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008CC5832805884500B34DCC /* Assets.xcassets */; };
+		008CC5872805884500B34DCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008CC5862805884500B34DCC /* Preview Assets.xcassets */; };
+		008CC5912805892B00B34DCC /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5902805892B00B34DCC /* FeedItem.swift */; };
+		008CC5932805894800B34DCC /* FeedRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5922805894800B34DCC /* FeedRoom.swift */; };
+		008CC5952805896000B34DCC /* UpcomingRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5942805896000B34DCC /* UpcomingRoomModel.swift */; };
+		008CC59B2805899B00B34DCC /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008CC5972805899B00B34DCC /* NunitoSans-SemiBold.ttf */; };
+		008CC59C2805899B00B34DCC /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008CC5982805899B00B34DCC /* NunitoSans-Regular.ttf */; };
+		008CC59D2805899B00B34DCC /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008CC5992805899B00B34DCC /* NunitoSans-ExtraBold.ttf */; };
+		008CC59E2805899B00B34DCC /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008CC59A2805899B00B34DCC /* NunitoSans-Bold.ttf */; };
+		008CC5A1280589B500B34DCC /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5A0280589B500B34DCC /* Color+Extensions.swift */; };
+		008CC5A4280589F900B34DCC /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5A3280589F900B34DCC /* Font+Extensions.swift */; };
+		008CC5A628058A1000B34DCC /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5A528058A1000B34DCC /* Image+Extensions.swift */; };
+		008CC5A828058A2A00B34DCC /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5A728058A2A00B34DCC /* RoomViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008CC57C2805884300B34DCC /* Clubhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008CC57F2805884300B34DCC /* ClubhouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseApp.swift; sourceTree = "<group>"; };
+		008CC5812805884300B34DCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		008CC5832805884500B34DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		008CC5862805884500B34DCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		008CC5902805892B00B34DCC /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		008CC5922805894800B34DCC /* FeedRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRoom.swift; sourceTree = "<group>"; };
+		008CC5942805896000B34DCC /* UpcomingRoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomModel.swift; sourceTree = "<group>"; };
+		008CC5972805899B00B34DCC /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		008CC5982805899B00B34DCC /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		008CC5992805899B00B34DCC /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		008CC59A2805899B00B34DCC /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		008CC5A0280589B500B34DCC /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		008CC5A3280589F900B34DCC /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		008CC5A528058A1000B34DCC /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		008CC5A728058A2A00B34DCC /* RoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
+		008CC5A928058A8300B34DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008CC5792805884300B34DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008CC5732805884300B34DCC = {
+			isa = PBXGroup;
+			children = (
+				008CC57E2805884300B34DCC /* Clubhouse */,
+				008CC57D2805884300B34DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008CC57D2805884300B34DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008CC57C2805884300B34DCC /* Clubhouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008CC57E2805884300B34DCC /* Clubhouse */ = {
+			isa = PBXGroup;
+			children = (
+				008CC5A928058A8300B34DCC /* Info.plist */,
+				008CC58F280588DF00B34DCC /* ViewModels */,
+				008CC58E280588DC00B34DCC /* Resources */,
+				008CC58D280588DA00B34DCC /* Models */,
+				008CC57F2805884300B34DCC /* ClubhouseApp.swift */,
+				008CC5812805884300B34DCC /* ContentView.swift */,
+				008CC5832805884500B34DCC /* Assets.xcassets */,
+				008CC5852805884500B34DCC /* Preview Content */,
+			);
+			path = Clubhouse;
+			sourceTree = "<group>";
+		};
+		008CC5852805884500B34DCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				008CC5862805884500B34DCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		008CC58D280588DA00B34DCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				008CC5902805892B00B34DCC /* FeedItem.swift */,
+				008CC5922805894800B34DCC /* FeedRoom.swift */,
+				008CC5942805896000B34DCC /* UpcomingRoomModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		008CC58E280588DC00B34DCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				008CC5962805898200B34DCC /* Fonts */,
+				008CC5A0280589B500B34DCC /* Color+Extensions.swift */,
+				008CC5A3280589F900B34DCC /* Font+Extensions.swift */,
+				008CC5A528058A1000B34DCC /* Image+Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		008CC58F280588DF00B34DCC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				008CC5A728058A2A00B34DCC /* RoomViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		008CC5962805898200B34DCC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				008CC59A2805899B00B34DCC /* NunitoSans-Bold.ttf */,
+				008CC5992805899B00B34DCC /* NunitoSans-ExtraBold.ttf */,
+				008CC5982805899B00B34DCC /* NunitoSans-Regular.ttf */,
+				008CC5972805899B00B34DCC /* NunitoSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008CC57B2805884300B34DCC /* Clubhouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008CC58A2805884500B34DCC /* Build configuration list for PBXNativeTarget "Clubhouse" */;
+			buildPhases = (
+				008CC5782805884300B34DCC /* Sources */,
+				008CC5792805884300B34DCC /* Frameworks */,
+				008CC57A2805884300B34DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clubhouse;
+			productName = Clubhouse;
+			productReference = 008CC57C2805884300B34DCC /* Clubhouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008CC5742805884300B34DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					008CC57B2805884300B34DCC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 008CC5772805884300B34DCC /* Build configuration list for PBXProject "Clubhouse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008CC5732805884300B34DCC;
+			productRefGroup = 008CC57D2805884300B34DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008CC57B2805884300B34DCC /* Clubhouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008CC57A2805884300B34DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CC59D2805899B00B34DCC /* NunitoSans-ExtraBold.ttf in Resources */,
+				008CC59B2805899B00B34DCC /* NunitoSans-SemiBold.ttf in Resources */,
+				008CC5872805884500B34DCC /* Preview Assets.xcassets in Resources */,
+				008CC59E2805899B00B34DCC /* NunitoSans-Bold.ttf in Resources */,
+				008CC5842805884500B34DCC /* Assets.xcassets in Resources */,
+				008CC59C2805899B00B34DCC /* NunitoSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008CC5782805884300B34DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CC5822805884300B34DCC /* ContentView.swift in Sources */,
+				008CC5802805884300B34DCC /* ClubhouseApp.swift in Sources */,
+				008CC5932805894800B34DCC /* FeedRoom.swift in Sources */,
+				008CC5A4280589F900B34DCC /* Font+Extensions.swift in Sources */,
+				008CC5A828058A2A00B34DCC /* RoomViewModel.swift in Sources */,
+				008CC5912805892B00B34DCC /* FeedItem.swift in Sources */,
+				008CC5952805896000B34DCC /* UpcomingRoomModel.swift in Sources */,
+				008CC5A1280589B500B34DCC /* Color+Extensions.swift in Sources */,
+				008CC5A628058A1000B34DCC /* Image+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		008CC5882805884500B34DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		008CC5892805884500B34DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008CC58B2805884500B34DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clubhouse/Preview Content\"";
+				DEVELOPMENT_TEAM = QH7853B55W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clubhouse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.aybarsacar.Clubhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		008CC58C2805884500B34DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clubhouse/Preview Content\"";
+				DEVELOPMENT_TEAM = QH7853B55W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clubhouse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.aybarsacar.Clubhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008CC5772805884300B34DCC /* Build configuration list for PBXProject "Clubhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008CC5882805884500B34DCC /* Debug */,
+				008CC5892805884500B34DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008CC58A2805884500B34DCC /* Build configuration list for PBXNativeTarget "Clubhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008CC58B2805884500B34DCC /* Debug */,
+				008CC58C2805884500B34DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008CC5742805884300B34DCC /* Project object */;
+}
