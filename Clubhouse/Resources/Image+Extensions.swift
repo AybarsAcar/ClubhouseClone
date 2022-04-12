@@ -8,26 +8,33 @@
 import SwiftUI
 
 extension Image {
-  
+  static let appImages = AppImages()
+  static let appIcons = AppIcons()
+}
+
+
+struct AppImages {
   /*** Image Assets ***/
-  static let profile_pic = Image("profile_pic")
-  
+  let profilePic = Image("profile_pic")
+}
+
+struct AppIcons {
   /** SFSymbols **/
-  static let search = Image(systemName: "magnifyingglass")
-  static let invite = Image(systemName: "envelope.open")
-  static let calendar = Image(systemName: "calendar")
-  static let notificationBell = Image(systemName: "bell")
-  static let home = Image(systemName: "house")
-  static let grid = Image(systemName: "circle.grid.3x3.fill")
-  static let person = Image(systemName: "person.fill")
-  static let chatBubble = Image(systemName: "ellipsis.bubble.fill")
-  static let back = Image(systemName: "chevron.backward")
-  static let down = Image(systemName: "chevron.down")
-  static let document = Image(systemName: "doc")
-  static let gear = Image(systemName: "gear")
-  static let plus = Image(systemName: "plus")
-  static let handRaised = Image(systemName: "hand.raised")
-  static let ellipsis = Image(systemName: "ellipsis")
-  static let star = Image(systemName: "staroflife.fill")
-  static let mute = Image(systemName: "speaker.slash.fill")
+  let search = Image(systemName: "magnifyingglass")
+  let invite = Image(systemName: "envelope.open")
+  let calendar = Image(systemName: "calendar")
+  let notificationBell = Image(systemName: "bell")
+  let home = Image(systemName: "house")
+  let grid = Image(systemName: "circle.grid.3x3.fill")
+  let person = Image(systemName: "person.fill")
+  let chatBubble = Image(systemName: "ellipsis.bubble.fill")
+  let back = Image(systemName: "chevron.backward")
+  let down = Image(systemName: "chevron.down")
+  let document = Image(systemName: "doc")
+  let gear = Image(systemName: "gear")
+  let plus = Image(systemName: "plus")
+  let handRaised = Image(systemName: "hand.raised")
+  let ellipsis = Image(systemName: "ellipsis")
+  let star = Image(systemName: "staroflife.fill")
+  let mute = Image(systemName: "speaker.slash.fill")
 }

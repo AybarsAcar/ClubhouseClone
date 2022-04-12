@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0025333B2805921C00975E57 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025333A2805921C00975E57 /* RoomView.swift */; };
 		008CC5802805884300B34DCC /* ClubhouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC57F2805884300B34DCC /* ClubhouseApp.swift */; };
 		008CC5822805884300B34DCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5812805884300B34DCC /* ContentView.swift */; };
 		008CC5842805884500B34DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008CC5832805884500B34DCC /* Assets.xcassets */; };
@@ -22,9 +23,12 @@
 		008CC5A4280589F900B34DCC /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5A3280589F900B34DCC /* Font+Extensions.swift */; };
 		008CC5A628058A1000B34DCC /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5A528058A1000B34DCC /* Image+Extensions.swift */; };
 		008CC5A828058A2A00B34DCC /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5A728058A2A00B34DCC /* RoomViewModel.swift */; };
+		008CC5AD28058C1600B34DCC /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5AC28058C1600B34DCC /* HomeHeaderView.swift */; };
+		008CC5B028058D7A00B34DCC /* UpcomingRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5AF28058D7A00B34DCC /* UpcomingRoomsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0025333A2805921C00975E57 /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 		008CC57C2805884300B34DCC /* Clubhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008CC57F2805884300B34DCC /* ClubhouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseApp.swift; sourceTree = "<group>"; };
 		008CC5812805884300B34DCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		008CC5A528058A1000B34DCC /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
 		008CC5A728058A2A00B34DCC /* RoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
 		008CC5A928058A8300B34DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		008CC5AC28058C1600B34DCC /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		008CC5AF28058D7A00B34DCC /* UpcomingRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +81,14 @@
 			isa = PBXGroup;
 			children = (
 				008CC5A928058A8300B34DCC /* Info.plist */,
-				008CC58F280588DF00B34DCC /* ViewModels */,
-				008CC58E280588DC00B34DCC /* Resources */,
-				008CC58D280588DA00B34DCC /* Models */,
 				008CC57F2805884300B34DCC /* ClubhouseApp.swift */,
 				008CC5812805884300B34DCC /* ContentView.swift */,
 				008CC5832805884500B34DCC /* Assets.xcassets */,
+				008CC58D280588DA00B34DCC /* Models */,
 				008CC5852805884500B34DCC /* Preview Content */,
+				008CC58E280588DC00B34DCC /* Resources */,
+				008CC58F280588DF00B34DCC /* ViewModels */,
+				008CC5AA28058BFB00B34DCC /* Views */,
 			);
 			path = Clubhouse;
 			sourceTree = "<group>";
@@ -107,10 +114,10 @@
 		008CC58E280588DC00B34DCC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				008CC5962805898200B34DCC /* Fonts */,
 				008CC5A0280589B500B34DCC /* Color+Extensions.swift */,
 				008CC5A3280589F900B34DCC /* Font+Extensions.swift */,
 				008CC5A528058A1000B34DCC /* Image+Extensions.swift */,
+				008CC5962805898200B34DCC /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -132,6 +139,32 @@
 				008CC5972805899B00B34DCC /* NunitoSans-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		008CC5AA28058BFB00B34DCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				008CC5AE28058D6500B34DCC /* HomeFeed */,
+				008CC5AB28058C0700B34DCC /* Headers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		008CC5AB28058C0700B34DCC /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				008CC5AC28058C1600B34DCC /* HomeHeaderView.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		008CC5AE28058D6500B34DCC /* HomeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				008CC5AF28058D7A00B34DCC /* UpcomingRoomsView.swift */,
+				0025333A2805921C00975E57 /* RoomView.swift */,
+			);
+			path = HomeFeed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,11 +245,14 @@
 				008CC5802805884300B34DCC /* ClubhouseApp.swift in Sources */,
 				008CC5932805894800B34DCC /* FeedRoom.swift in Sources */,
 				008CC5A4280589F900B34DCC /* Font+Extensions.swift in Sources */,
+				008CC5AD28058C1600B34DCC /* HomeHeaderView.swift in Sources */,
 				008CC5A828058A2A00B34DCC /* RoomViewModel.swift in Sources */,
 				008CC5912805892B00B34DCC /* FeedItem.swift in Sources */,
 				008CC5952805896000B34DCC /* UpcomingRoomModel.swift in Sources */,
 				008CC5A1280589B500B34DCC /* Color+Extensions.swift in Sources */,
+				0025333B2805921C00975E57 /* RoomView.swift in Sources */,
 				008CC5A628058A1000B34DCC /* Image+Extensions.swift in Sources */,
+				008CC5B028058D7A00B34DCC /* UpcomingRoomsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
