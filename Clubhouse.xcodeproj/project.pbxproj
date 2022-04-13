@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0025333B2805921C00975E57 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025333A2805921C00975E57 /* RoomView.swift */; };
+		0035B98B2806C7750042AFE4 /* BottomHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035B98A2806C7750042AFE4 /* BottomHomeView.swift */; };
 		008CC5802805884300B34DCC /* ClubhouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC57F2805884300B34DCC /* ClubhouseApp.swift */; };
 		008CC5822805884300B34DCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5812805884300B34DCC /* ContentView.swift */; };
 		008CC5842805884500B34DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008CC5832805884500B34DCC /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		0025333A2805921C00975E57 /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		0035B98A2806C7750042AFE4 /* BottomHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHomeView.swift; sourceTree = "<group>"; };
 		008CC57C2805884300B34DCC /* Clubhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008CC57F2805884300B34DCC /* ClubhouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseApp.swift; sourceTree = "<group>"; };
 		008CC5812805884300B34DCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -161,8 +163,9 @@
 		008CC5AE28058D6500B34DCC /* HomeFeed */ = {
 			isa = PBXGroup;
 			children = (
-				008CC5AF28058D7A00B34DCC /* UpcomingRoomsView.swift */,
+				0035B98A2806C7750042AFE4 /* BottomHomeView.swift */,
 				0025333A2805921C00975E57 /* RoomView.swift */,
+				008CC5AF28058D7A00B34DCC /* UpcomingRoomsView.swift */,
 			);
 			path = HomeFeed;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				008CC5932805894800B34DCC /* FeedRoom.swift in Sources */,
 				008CC5A4280589F900B34DCC /* Font+Extensions.swift in Sources */,
 				008CC5AD28058C1600B34DCC /* HomeHeaderView.swift in Sources */,
+				0035B98B2806C7750042AFE4 /* BottomHomeView.swift in Sources */,
 				008CC5A828058A2A00B34DCC /* RoomViewModel.swift in Sources */,
 				008CC5912805892B00B34DCC /* FeedItem.swift in Sources */,
 				008CC5952805896000B34DCC /* UpcomingRoomModel.swift in Sources */,

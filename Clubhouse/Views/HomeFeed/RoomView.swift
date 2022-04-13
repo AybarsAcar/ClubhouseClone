@@ -10,7 +10,7 @@ import SwiftUI
 struct RoomView: View {
   
   let room: FeedRoom
-    
+  
   var body: some View {
     VStack(alignment: .leading) {
       if let groupName = room.groupName {
@@ -51,7 +51,7 @@ struct RoomView: View {
             
             Text(room.numOfHosts.description)
               .padding(.trailing, 5)
-              
+            
             Image.appIcons.chatBubble
           }
           .font(Font.Nunito.semiBold(size: 14))
