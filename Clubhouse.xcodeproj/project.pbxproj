@@ -11,6 +11,9 @@
 		0035B98B2806C7750042AFE4 /* BottomHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035B98A2806C7750042AFE4 /* BottomHomeView.swift */; };
 		0035B98D2806CBFB0042AFE4 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035B98C2806CBFB0042AFE4 /* ProfileHeaderView.swift */; };
 		0035B9902806CC8E0042AFE4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035B98F2806CC8E0042AFE4 /* ProfileView.swift */; };
+		0035B9942806D5E80042AFE4 /* PersonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035B9932806D5E80042AFE4 /* PersonImageView.swift */; };
+		0035B9962806D6D90042AFE4 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035B9952806D6D90042AFE4 /* NewView.swift */; };
+		0035B9982806D7370042AFE4 /* MuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035B9972806D7370042AFE4 /* MuteView.swift */; };
 		008CC5802805884300B34DCC /* ClubhouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC57F2805884300B34DCC /* ClubhouseApp.swift */; };
 		008CC5822805884300B34DCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5812805884300B34DCC /* ContentView.swift */; };
 		008CC5842805884500B34DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008CC5832805884500B34DCC /* Assets.xcassets */; };
@@ -28,6 +31,13 @@
 		008CC5A828058A2A00B34DCC /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5A728058A2A00B34DCC /* RoomViewModel.swift */; };
 		008CC5AD28058C1600B34DCC /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5AC28058C1600B34DCC /* HomeHeaderView.swift */; };
 		008CC5B028058D7A00B34DCC /* UpcomingRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC5AF28058D7A00B34DCC /* UpcomingRoomsView.swift */; };
+		00ED19A72808CBE4008D1EC9 /* OtherPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED19A62808CBE4008D1EC9 /* OtherPersonView.swift */; };
+		00ED19A92808D5C7008D1EC9 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED19A82808D5C7008D1EC9 /* PersonView.swift */; };
+		00ED19AC2808D75B008D1EC9 /* OthersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED19AB2808D75B008D1EC9 /* OthersView.swift */; };
+		00ED19AE2808D8BE008D1EC9 /* HostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED19AD2808D8BE008D1EC9 /* HostsView.swift */; };
+		00ED19B02808D93E008D1EC9 /* BottomRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED19AF2808D93E008D1EC9 /* BottomRoomView.swift */; };
+		00ED19B22808DA7D008D1EC9 /* RoomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED19B12808DA7D008D1EC9 /* RoomHeaderView.swift */; };
+		00ED19B42808DB2F008D1EC9 /* ActiveRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED19B32808DB2F008D1EC9 /* ActiveRoomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +45,9 @@
 		0035B98A2806C7750042AFE4 /* BottomHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHomeView.swift; sourceTree = "<group>"; };
 		0035B98C2806CBFB0042AFE4 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		0035B98F2806CC8E0042AFE4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0035B9932806D5E80042AFE4 /* PersonImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonImageView.swift; sourceTree = "<group>"; };
+		0035B9952806D6D90042AFE4 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		0035B9972806D7370042AFE4 /* MuteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteView.swift; sourceTree = "<group>"; };
 		008CC57C2805884300B34DCC /* Clubhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008CC57F2805884300B34DCC /* ClubhouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseApp.swift; sourceTree = "<group>"; };
 		008CC5812805884300B34DCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +67,13 @@
 		008CC5A928058A8300B34DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		008CC5AC28058C1600B34DCC /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		008CC5AF28058D7A00B34DCC /* UpcomingRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomsView.swift; sourceTree = "<group>"; };
+		00ED19A62808CBE4008D1EC9 /* OtherPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPersonView.swift; sourceTree = "<group>"; };
+		00ED19A82808D5C7008D1EC9 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		00ED19AB2808D75B008D1EC9 /* OthersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersView.swift; sourceTree = "<group>"; };
+		00ED19AD2808D8BE008D1EC9 /* HostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostsView.swift; sourceTree = "<group>"; };
+		00ED19AF2808D93E008D1EC9 /* BottomRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRoomView.swift; sourceTree = "<group>"; };
+		00ED19B12808DA7D008D1EC9 /* RoomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomHeaderView.swift; sourceTree = "<group>"; };
+		00ED19B32808DB2F008D1EC9 /* ActiveRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRoomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +93,31 @@
 				0035B98F2806CC8E0042AFE4 /* ProfileView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		0035B9912806D5D50042AFE4 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				00ED19B32808DB2F008D1EC9 /* ActiveRoomView.swift */,
+				00ED19AF2808D93E008D1EC9 /* BottomRoomView.swift */,
+				00ED19AD2808D8BE008D1EC9 /* HostsView.swift */,
+				00ED19AB2808D75B008D1EC9 /* OthersView.swift */,
+				00ED19B12808DA7D008D1EC9 /* RoomHeaderView.swift */,
+				0035B9922806D5DF0042AFE4 /* Person */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		0035B9922806D5DF0042AFE4 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				0035B9932806D5E80042AFE4 /* PersonImageView.swift */,
+				0035B9972806D7370042AFE4 /* MuteView.swift */,
+				0035B9952806D6D90042AFE4 /* NewView.swift */,
+				00ED19A62808CBE4008D1EC9 /* OtherPersonView.swift */,
+				00ED19A82808D5C7008D1EC9 /* PersonView.swift */,
+			);
+			path = Person;
 			sourceTree = "<group>";
 		};
 		008CC5732805884300B34DCC = {
@@ -158,6 +203,7 @@
 		008CC5AA28058BFB00B34DCC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0035B9912806D5D50042AFE4 /* Rooms */,
 				0035B98E2806CC870042AFE4 /* Profile */,
 				008CC5AE28058D6500B34DCC /* HomeFeed */,
 				008CC5AB28058C0700B34DCC /* Headers */,
@@ -262,15 +308,25 @@
 				008CC5802805884300B34DCC /* ClubhouseApp.swift in Sources */,
 				008CC5932805894800B34DCC /* FeedRoom.swift in Sources */,
 				008CC5A4280589F900B34DCC /* Font+Extensions.swift in Sources */,
+				00ED19B42808DB2F008D1EC9 /* ActiveRoomView.swift in Sources */,
 				008CC5AD28058C1600B34DCC /* HomeHeaderView.swift in Sources */,
+				0035B9942806D5E80042AFE4 /* PersonImageView.swift in Sources */,
 				0035B9902806CC8E0042AFE4 /* ProfileView.swift in Sources */,
+				00ED19A92808D5C7008D1EC9 /* PersonView.swift in Sources */,
+				00ED19B22808DA7D008D1EC9 /* RoomHeaderView.swift in Sources */,
+				00ED19A72808CBE4008D1EC9 /* OtherPersonView.swift in Sources */,
 				0035B98B2806C7750042AFE4 /* BottomHomeView.swift in Sources */,
 				008CC5A828058A2A00B34DCC /* RoomViewModel.swift in Sources */,
 				008CC5912805892B00B34DCC /* FeedItem.swift in Sources */,
 				008CC5952805896000B34DCC /* UpcomingRoomModel.swift in Sources */,
+				0035B9962806D6D90042AFE4 /* NewView.swift in Sources */,
+				00ED19AC2808D75B008D1EC9 /* OthersView.swift in Sources */,
 				008CC5A1280589B500B34DCC /* Color+Extensions.swift in Sources */,
 				0025333B2805921C00975E57 /* RoomView.swift in Sources */,
 				0035B98D2806CBFB0042AFE4 /* ProfileHeaderView.swift in Sources */,
+				00ED19AE2808D8BE008D1EC9 /* HostsView.swift in Sources */,
+				00ED19B02808D93E008D1EC9 /* BottomRoomView.swift in Sources */,
+				0035B9982806D7370042AFE4 /* MuteView.swift in Sources */,
 				008CC5A628058A1000B34DCC /* Image+Extensions.swift in Sources */,
 				008CC5B028058D7A00B34DCC /* UpcomingRoomsView.swift in Sources */,
 			);

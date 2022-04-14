@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ClubhouseApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  
+  @StateObject private var viewModel = RoomViewModel()
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environmentObject(viewModel)
     }
+  }
 }
